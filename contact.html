@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo1">Mihika's Portfolio</div>
+        <div>
+            <ul class="nav-links1">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Mihika Dakappagari</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main_sect">
+        <div class="cont1">
+            <h1>Contact Me</h1>
+            <p>Wish to collaborate and get in touch? Mail me directly or fill out the details below! I'd be thrilled to connect with you!</p>
+            <div class="cont">
+                <a>mihikashrinivas@gmail.com</a>
+                <h3>(213) 561-8952</h3>
+            </div>
+            <div class="contact-form">
+                <form action="mailto:mihikashrinivas@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name <span>(required)</span></label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email <span>(required)</span></label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message <span>(required)</span></label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="cont2">
+            <img src="./assets/slava-auchynnikau-RCa8h5Pwv9k-unsplash.jpg" alt="Contact Me">
+    </section>
+
+    <section class="sect_5">
+        <h1>Mihika's Portfolio</h1>
+        <div class="footer">
+            <div class="footer-left">
+                <p>LOCATION</p>
+                <h2>720 W 27th Street <br> Los Angeles, CA 90007</h2>
+            </div>
+            <div class="footer-right">
+                <p>CONTACT</p>
+                <h2><a>mihikashrinivas@gmail.com</a></h2>
+                <h2>(213) 561-8952</h2>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <nav id="hamburger-nav">
+        <div class="logo">Mihika Dakappagari</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section1">
+        <h1>Who Am I</h1>
+        <p>Originally from Mumbai, India, I spent 22 years in my hometown before moving to the United States to pursue a Master of Science in Computer Science at the University of Southern California. <br><br>Academically, my journey started with a Bachelor of Technology in Computer Engineering from K.J. Somaiya College of Engineering, where I developed a strong interest in Web and Mobile Development, setting the foundation for my professional pursuits. I have gained substantial experience across programming, web development, and data science, with skills spanning Python, R programming, JavaScript, and web development frameworks such as MERN Stack and React. <br><br>In my professional career, I have worked as a Technical Intern at Galaxy Office Automation, where I contributed to developing secure APIs using PHP, MySQL, and implemented JWT-based authorization, as well as managing PostgreSQL databases. I’ve also worked on mobile applications, including a survey app aimed at improving accessibility across Mumbai’s railway stations.<br><br>I have led a number of academic projects, from building a real-time chat application using the MERN stack, to developing a sign language recognition system leveraging OpenCV and Keras. One of my favorite projects was creating a personalized e-learning system using K-means clustering and reinforcement learning to tailor content to individual learning preferences.<br><br>In summary, I'm a Full Stack developer, with a keen eye for creating engaging UI and bringing designs to life.</p>
+        <div class="btn-container1">
+            <button class="btn btn2" onclick="downloadFile()">Download Resume</button>
+        </div>
+        <div class="social-media">
+            <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon1" onclick="window.open('https://www.linkedin.com/in/mihika-dakappagari-150a92215', '_blank')">
+            <img src="./assets/github.png" alt="My Github Profile" class="icon1" onclick="window.open('https://github.com/Mihika-Tech?tab=repositories', '_blank')">
+        </div>
+        </section>
+
+    <section class="sect_4" style="background-color: #EC5C39; padding-top: 2rem; padding-bottom: 1rem;">
+        <h1 style="color: white;">Some of My Recent Work</h1>
+        <div class="project-container">
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="./assets/download.jpg" alt="Project 1">
+                </div>
+                <div class="project-details">
+                    <h2>Survey App</h2>
+                    <p>Developed a survey mobile application using Flutter and Dart programming language focusing on accessibility issues found at railway stations in Mumbai, also enabled users to upload images of stations, search for images of a particular station and find out the accessibility rating of a station based on recorded survey answers</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="./assets/2.jpg" alt="Project 2">
+                </div>
+                <div class="project-details">
+                    <h2>API Development</h2>
+                    <p>Utilized PHP and MySQL to build APIs with an internal database. Security and authorization were added with the help of JWT tokens, providing access to only authorized users. Utilized Postman for API testing and played a role in managing PostgreSQL databases</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="./assets/download.jpg" alt="Project 1">
+                </div>
+                <div class="project-details">
+                    <h2>Survey App</h2>
+                    <p>Developed a survey mobile application using Flutter and Dart programming language focusing on accessibility issues found at railway stations in Mumbai, also enabled users to upload images of stations, search for images of a particular station and find out the accessibility rating of a station based on recorded survey answers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect_5">
+        <h1>Mihika's Portfolio</h1>
+        <div class="footer">
+            <div class="footer-left">
+                <p>LOCATION</p>
+                <h2>720 W 27th Street <br> Los Angeles, CA 90007</h2>
+            </div>
+            <div class="footer-right">
+                <p>CONTACT</p>
+                <h2><a>mihikashrinivas@gmail.com</a></h2>
+                <h2>(213) 561-8952</h2>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

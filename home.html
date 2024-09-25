@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sect_1">
+        <nav id="desktop-nav">
+            <div class="logo">Mihika's Portfolio</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Mihika Dakappagari</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="togglemenu()">About</a></li>
+                    <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <div class="main_sect_1">
+            <div class="text-container1">
+                <h2>Hello, I'm</h2>
+                <h1>Mihika Dakappagari</h1>
+                <p>With a Bachelor's in Computer Engineering from K.J. Somaiya College of Engineering, my journey began in 2020 with an introduction to the world of engineering and technology. My undergrad helped me build my foundations and expand my interest in the field of Computer Science, particularly the areas of Web and Mobile Development...</p>
+                <div class="btn-container">
+                    <button class="btn btn1" onclick="location.href='about.html'">Learn More</button>
+                </div>
+            </div>
+            <div class="image-container1">
+                <img src="./assets/profile.png" alt="Profile">
+            </div>
+        </div>
+    </section>
+    <section class="sect_2">
+        <h1>My Experience</h1>
+        <div class="section-container">
+            <div class="exp-detail-containers">
+                <div class="exp-container">
+                    <div class="sub-container1">
+                        <h3>Galaxy Office Automation Pvt. Ltd</h3>
+                        <h2>Technical Intern</h2>
+                        <p>June 2023 - August 2023</p>
+                    </div>
+                    <div class="sub-container2">
+                        <p>
+                            <ul>
+                                <li>Utilized PHP and MySQL to build APIs with an internal database</li>
+                                <li>Security and authorization were added with the help of JWT tokens, providing access to only authorized users</li>
+                                <li>Utilized Postman for API testing and played a role in managing PostgreSQL databases</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="exp-detail-containers">
+                <div class="exp-container">
+                    <div class="exp-container">
+                        <div class="sub-container3">
+                            <p>
+                                <ul>
+                                    <li>Developed a survey mobile application using Flutter and Dart programming language focusing on accessibility issues found at railway stations in Mumbai, also enabled users to upload images of stations, search for images of a particular station and find out the accessibility rating of a station based on recorded survey answers</li>
+                                    <li>Under the guidance of the Head of the Computer Department</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="sub-container4">
+                            <h3>KJ Somaiya College of Engineering</h3>
+                            <h2>Mobile Development Intern</h2>
+                            <p>February 2023 - April 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect_3">
+        <h1>My Skills</h1>
+        <div class="skills-right">
+            <div class="skill-item">
+                <div class="skill-title" onclick="toggleService(this)">
+                    <span>Languages</span>
+                    <span class="plus-sign">+</span>
+                </div>
+                <div class="skill-description">
+                    <div class="desc-left">
+                        <ul>
+                            <li>Python</li>
+                            <li>Dart</li>
+                            <li>R Programming</li>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="desc-right">
+                        <ul>
+                            <li>MERN Stack</li>
+                            <li>React</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-title" onclick="toggleService(this)">
+                    <span>Software Tools</span>
+                    <span class="plus-sign">+</span>
+                </div>
+                <div class="skill-description">
+                    <div class="desc-left">
+                        <ul>
+                            <li>Visual Studio Code</li>
+                            <li>Android Studio</li>
+                            <li>Postman</li>
+                            <li>Git</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <div class="desc-right">
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>Excel</li>
+                            <li>Powerpoint</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-title" onclick="toggleService(this)">
+                    <span>Soft Skills</span>
+                    <span class="plus-sign">+</span>
+                </div>
+                <div class="skill-description">
+                    <ul>
+                        <li>Effective Communication</li>
+                        <li>Adaptability</li>
+                        <li>Time Management</li>
+                        <li>Teamwork</li>
+                        <li>Attention to Detail</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect_4">
+        <h1>My Projects</h1>
+        <div class="project-container">
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="./assets/download.jpg" alt="Project 1">
+                </div>
+                <div class="project-details">
+                    <h2>Survey App</h2>
+                    <p>Developed a survey mobile application using Flutter and Dart programming language focusing on accessibility issues found at railway stations in Mumbai, also enabled users to upload images of stations, search for images of a particular station and find out the accessibility rating of a station based on recorded survey answers</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="./assets/2.jpg" alt="Project 2">
+                </div>
+                <div class="project-details">
+                    <h2>API Development</h2>
+                    <p>Utilized PHP and MySQL to build APIs with an internal database. Security and authorization were added with the help of JWT tokens, providing access to only authorized users. Utilized Postman for API testing and played a role in managing PostgreSQL databases</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="./assets/download.jpg" alt="Project 1">
+                </div>
+                <div class="project-details">
+                    <h2>Survey App</h2>
+                    <p>Developed a survey mobile application using Flutter and Dart programming language focusing on accessibility issues found at railway stations in Mumbai, also enabled users to upload images of stations, search for images of a particular station and find out the accessibility rating of a station based on recorded survey answers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect_5">
+        <h1>Mihika's Portfolio</h1>
+        <div class="footer">
+            <div class="footer-left">
+                <p>LOCATION</p>
+                <h2>720 W 27th Street <br> Los Angeles, CA 90007</h2>
+            </div>
+            <div class="footer-right">
+                <p>CONTACT</p>
+                <h2><a>mihikashrinivas@gmail.com</a></h2>
+                <h2>(213) 561-8952</h2>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
