@@ -445,7 +445,7 @@ nav a:hover {
 
 .project-item {
     width: 30%;
-    height: 30%;
+    height: 40%;
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -471,6 +471,7 @@ nav a:hover {
 
 .project-details {
     padding: 1rem;
+    text-align: justify;
 }
 
 .project-details h2 {
